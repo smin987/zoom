@@ -92,3 +92,7 @@ nodemon.json에 다음내용추가
 # 웹소켓 통신을 위해 ws 다운로드
 
 npm i ws
+
+관리자 페이지 설치 (https://admin.socket.io)
+
+npm i @socket.io/admin-ui

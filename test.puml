@@ -1,0 +1,20 @@
+' PLANT-UML
+' cmd 관리자모드에서 choco install plantuml
+' 자바jdk 설치 및 환경변수등록 필수
+' alt + d 키로 미리보기
+' alt + v 키로 내보내기
+' 매뉴얼 https://plantuml.com/ko/
+
+@startuml 1
+start
+    : PlantUML 시작하기;
+    : vscode에 설치;
+    if(설치완료?) then (Yes)
+    : 깔끔하게 그리기;
+    else
+        : 파워포인트 사용하기;
+    endif
+end 
+@enduml
+
+
